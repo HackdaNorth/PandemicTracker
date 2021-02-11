@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ComponentsModule } from '../components/components.module';
+// import { File } from '@ionic-native/file/ngx';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  constructor() { }
 
+  // this.file.checkDir(this.file.dataDirectory, 'mydir').then(_ => console.log('Directory exists')).catch(err =>
+  //   console.log('Directory doest exist'));private file: File
 }
