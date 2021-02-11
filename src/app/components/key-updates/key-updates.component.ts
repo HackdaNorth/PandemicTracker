@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Pdata } from '../../pdata';
+import { Cdata } from '../../data';
 import { GetDataService } from '../../getdata.service';
 
 
@@ -12,7 +12,7 @@ import { GetDataService } from '../../getdata.service';
 })
 export class KeyUpdatesComponent implements OnInit {
 
-  myData: Pdata;
+  myData: Cdata;
 
   constructor(private ldData: GetDataService) { }
 

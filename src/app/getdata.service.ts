@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { Pdata } from '../app/pdata';
-import { PDATA } from '../assets/data/pData';
+import { Cdata } from './data';
+import { CDATA } from '../assets/data/data';
 
 
 @Injectable({
@@ -9,7 +9,8 @@ import { PDATA } from '../assets/data/pData';
 export class GetDataService {
 
   constructor() { }
-  loadData(): Pdata {
-    return PDATA;
+  loadData(): Cdata {
+    return CDATA;
   }
+
 }

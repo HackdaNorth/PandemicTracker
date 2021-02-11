@@ -1,10 +1,28 @@
 <ion-card color="warning">
   <ion-card-header>
+    <ion-card-subtitle>AS OF FEB 10/2021 9:00am</ion-card-subtitle>
     <ion-card-title>Status of Cases in Ontario</ion-card-title>
   </ion-card-header>
-
   <ion-card-content>
-    Keep close to Nature's heart... and break clear away, once in awhile,
-    and climb a mountain or spend a week in the woods. Wash your spirit clean.
+    <ion-list>
+      <ion-item >
+        <ion-label>Total Cases: {{myData.Total_Cases}} </ion-label>
+      </ion-item>
+      <ion-item >
+        <ion-label>Resolved Cases: {{myData.Resolved_Cases}} </ion-label>
+      </ion-item>
+      <ion-item >
+        <ion-label >Deaths: {{myData.Deaths_Total}}</ion-label>
+      </ion-item>
+      <ion-item  >
+        <ion-label > Hospitalized Today: {{myData.Hospitalized_Total}}</ion-label>
+      </ion-item>
+      <ion-item >
+        <ion-label>IN ICU: {{myData.ICU_Total}}</ion-label>
+      </ion-item>
+      <ion-item >
+        <ion-label>IN ICU WITH VENTILATOR: {{myData.ICUVENT_Total}}</ion-label>
+      </ion-item>
+    </ion-list>
   </ion-card-content>
 </ion-card>
