@@ -9,7 +9,6 @@ import { HomePagePage } from './home-page.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
 
-
 @NgModule({
   imports: [
     CommonModule,

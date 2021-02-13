@@ -8,6 +8,7 @@ import { ExploreContainerComponentModule } from '../explore-container/explore-co
 import { ComponentsModule } from '../components/components.module';
 import { Tab2PageRoutingModule } from './tab2-routing.module';
 
+
 @NgModule({
   imports: [
     IonicModule,

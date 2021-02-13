@@ -5,7 +5,10 @@
 </ion-header>
 
 <ion-content>
-  <app-key-updates></app-key-updates>
-  
+  <app-ontario></app-ontario>
+
   <ion-button color="secondary" (click)="goPage()">Go Back</ion-button>
+
+  <ion-input [(ngModel)]="message" placeholder="Enter Message"></ion-input>
+  <ion-button (click)="sendMsg()">Send Message</ion-button>
 </ion-content>

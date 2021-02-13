@@ -3,8 +3,6 @@ import { OntData } from './data';
 import { ONTDATA } from '../assets/data/data';
 
 
-
-
 @Injectable({
   providedIn: 'root'
 })
