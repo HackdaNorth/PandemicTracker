@@ -9,9 +9,7 @@ import { SendMessageService } from '../send-message.service'; //import data serv
 export class Tab2Page implements OnInit {
   message: any; // declare var
 
-  constructor(private sharedService: SendMessageService) {
-    // set params
-  }
+  constructor(private sharedService: SendMessageService) {}
 
   ngOnInit() {
     this.sharedService.sharedMessage.subscribe(

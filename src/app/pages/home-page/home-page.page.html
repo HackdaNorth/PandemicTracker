@@ -1,14 +1,12 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>homePage</ion-title>
+  <ion-toolbar color="danger">
+    <ion-title>Home Page</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <app-ontario></app-ontario>
-
-  <ion-button color="secondary" (click)="goPage()">Go Back</ion-button>
-
+  <ion-button [routerLink]="['/app','data']">Go Back (Ontario Tab)</ion-button>
   <ion-input [(ngModel)]="message" placeholder="Enter Message"></ion-input>
   <ion-button (click)="sendMsg()">Send Message</ion-button>
 </ion-content>
